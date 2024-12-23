@@ -1,6 +1,6 @@
 {
     "friendly_name": "KUbuK",
-    "image_src": "kubuk.jpeg",
+    "image_src": "kubuk.gif",
     "description": "Ubuntu desktop with KDE for Kasm Workspaces, which has been expanded to include useful programs, e.g. for software developers.",
     "cores": 3,
     "memory": 5120,

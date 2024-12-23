@@ -2,9 +2,9 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
+    name: 'Digiwomb',
     description: 'An unofficial store for Kasm supported workspaces.',
-    icon: 'https://registry.kasmweb.com/1.1/_next/static/media/registry-logo.0c581e19.png',
+    icon: 'https://avatars.githubusercontent.com/u/190783148',
     listUrl: 'https://digiwomb.github.io/kasm-registry/',
     contactUrl: 'https://github.com/digiwomb/kasm-registry/issues',
   },

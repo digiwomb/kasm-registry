@@ -1,0 +1,39 @@
+{
+    "friendly_name": "KUbuK",
+    "image_src": "kubuk.jpeg",
+    "description": "Ubuntu desktop with KDE for Kasm Workspaces, which has been expanded to include useful programs, e.g. for software developers.",
+    "cores": 3,
+    "memory": 5120,
+    "gpu_count": 0,
+    "cpu_allocation_method": "Inherit",
+    "docker_registry": "https://index.docker.io/v1/",
+    "categories": [
+      "Desktop"
+    ],
+    "require_gpu": false,
+    "enabled": true,
+    "image_type": "Container",
+    "run_config": {
+        "user": 1000,
+        "entrypoint": [
+          "/kasminit"
+        ],
+        "environment": {
+          "HOME": "/home/kasm-user",
+          "KASM_PROFILE_FILTER": ".cache,.vnc,Downloads,Uploads,.vscode/extensions,.bashrc"
+        },
+        "security_opt": [
+          "seccomp=unconfined"
+        ]
+    },
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      {
+        "version": "1.16.x",
+        "image": "digiwomb/kubuk:latest",
+        "uncompressed_size_mb": 2880
+      }
+    ]
+}

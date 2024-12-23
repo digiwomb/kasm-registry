@@ -1,6 +1,6 @@
 {
     "friendly_name": "KUbuK Lucky framwork",
-    "image_src": "kubuk.gif",
+    "image_src": "kubuk-luckyframework.png",
     "description": "Ubuntu desktop with KDE for Kasm Workspaces, which has been expanded to include useful programs, e.g. for the lucky framework.",
     "cores": 3,
     "memory": 5120,

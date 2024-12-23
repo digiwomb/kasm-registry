@@ -3,10 +3,10 @@
 const nextConfig = {
   env: {
     name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    description: 'An unofficial store for Kasm supported workspaces.',
+    icon: 'https://registry.kasmweb.com/1.1/_next/static/media/registry-logo.0c581e19.png',
+    listUrl: 'https://digiwomb.github.io/kasm-registry/',
+    contactUrl: 'https://github.com/digiwomb/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,

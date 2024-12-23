@@ -35,5 +35,6 @@
         "image": "digiwomb/kubuk:latest",
         "uncompressed_size_mb": 2880
       }
-    ]
+    ],
+    "name": "digiwomb/kubuk:latest"
 }

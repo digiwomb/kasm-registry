@@ -22,7 +22,8 @@
     "compatibility": [
       {
         "version": "1.16.x",
-        "image": "digiwomb/kubux:latest"
+        "image": "digiwomb/kubux:latest",
+        "uncompressed_size_mb": 4440
       }
     ],
     "name": "digiwomb/kubux:latest"

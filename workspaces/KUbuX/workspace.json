@@ -1,0 +1,29 @@
+{
+    "friendly_name": "KUbuX",
+    "image_src": "kubux.gif",
+    "description": "Ubuntu desktop with XFCE for Kasm Workspaces, which has been expanded to include useful programs, e.g. for software developers.",
+    "cores": 3,
+    "memory": 5120,
+    "gpu_count": 0,
+    "cpu_allocation_method": "Inherit",
+    "categories": [
+      "Desktop"
+    ],
+    "require_gpu": false,
+    "enabled": true,
+    "image_type": "Container",
+    "run_config": {
+      "hostname": "kasm",
+      "privileged": true
+    },
+    "architecture": [
+      "amd64"
+    ],
+    "compatibility": [
+      {
+        "version": "1.16.x",
+        "image": "digiwomb/kubux:latest"
+      }
+    ],
+    "name": "digiwomb/kubux:latest"
+}
